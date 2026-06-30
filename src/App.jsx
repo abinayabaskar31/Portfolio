@@ -5,7 +5,7 @@ import {
   BarChart2, FileSpreadsheet, Table, FileCode, Palette, Globe, Flame, Leaf, 
   GitBranch, Zap, Wrench, Sparkles, ExternalLink, Compass, Search, Eye, 
   Download, Star, Award, Sprout, Play, Bot, Users, FileText, CheckCircle2, 
-  CloudRain, ShoppingBag, Laptop
+  CloudRain, ShoppingBag, Laptop, Calendar
 } from 'lucide-react'
 import profileImg from './assets/profile.png'
 import agroiqHome from './assets/agroiq-home.jpg'
