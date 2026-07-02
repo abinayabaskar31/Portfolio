@@ -71,24 +71,6 @@ const Github = ({ size = 24, ...props }) => (
   </svg>
 )
 
-const Instagram = ({ size = 24, ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-  </svg>
-)
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -242,7 +224,7 @@ function App() {
               <span className="tag">Tableau</span>
               <span className="tag">Power BI</span>
               <span className="tag">Python</span>
-              <span className="tag">React</span>
+              <span className="tag">Excel</span>
             </div>
             <p style={{marginBottom: '28px', lineHeight: 1.8}}>
               BCA Graduate passionate about Data Analytics, Software Development, and Web Development. 
@@ -252,7 +234,7 @@ function App() {
               <a href="https://linkedin.com/in/abinaya3110" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 <Linkedin size={18} /> LinkedIn
               </a>
-              <a href="https://github.com/abinayab" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+              <a href="https://github.com/abinayabaskar31" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 <Github size={18} /> GitHub
               </a>
               <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="btn-secondary">
@@ -935,12 +917,10 @@ function App() {
       {/* ========== FOOTER ========== */}
       <footer className="footer">
         <div className="footer-links">
-          <a href="https://github.com/abinayab" target="_blank" rel="noopener noreferrer"><Github size={20} /></a>
+          <a href="https://github.com/abinayabaskar31" target="_blank" rel="noopener noreferrer"><Github size={20} /></a>
           <a href="https://linkedin.com/in/abinaya3110" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
           <a href="mailto:abinayabaskar3110@gmail.com"><Mail size={20} /></a>
-          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><Instagram size={20} /></a>
         </div>
-        <p>© 2025 Abinaya B. Built with <span className="heart">♥</span> and React</p>
       </footer>
     </>
   )
