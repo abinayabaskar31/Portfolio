@@ -402,10 +402,7 @@ function App() {
                   {['Python', 'Machine Learning', 'OpenCV', 'NumPy', 'SQLite', 'Data Analytics'].map(t => <span key={t}>{t}</span>)}
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/abinayab" target="_blank" rel="noopener noreferrer" className="project-link primary">
-                    <Github size={16} /> GitHub
-                  </a>
-                  <a href="https://linkedin.com/in/abinaya3110" target="_blank" rel="noopener noreferrer" className="project-link secondary">
+                  <a href="https://krish31jerry-agro-iq-ai.hf.space/cropandyeilds" target="_blank" rel="noopener noreferrer" className="project-link primary">
                     <ExternalLink size={16} /> Demo
                   </a>
                 </div>
