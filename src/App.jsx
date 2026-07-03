@@ -283,7 +283,7 @@ function App() {
               </div>
             </div>
             <div className="about-text">
-              <h3>A Technology Enthusiast & Aspiring Professional 🚀</h3>
+              <h3>A Technology Enthusiast & Aspiring Professional <Zap size={24} /></h3>
               <p>
                 I am <strong>Abinaya B</strong>, a BCA graduate from <strong>SASTRA University</strong> with a strong interest in <strong>Data Analytics, Software Development, and Web Development</strong>.
               </p>
@@ -391,7 +391,7 @@ function App() {
                 </div>
               </div>
               <div className="project-body">
-                <h3>🌾 AGRO IQ — AI-Powered Smart Agriculture</h3>
+                <h3><Sprout size={24} /> AGRO IQ — AI-Powered Smart Agriculture</h3>
                 <p>
                   An AI-powered agriculture platform empowering farmers with data-driven crop intelligence.
                   Features crop recommendation via trained ML models, yield analytics with interactive
@@ -422,7 +422,7 @@ function App() {
                 </div>
               </div>
               <div className="project-body">
-                <h3>🌱 TerraceIQ — AI-Based Smart Gardening System</h3>
+                <h3><Sprout size={24} /> TerraceIQ — AI-Based Smart Gardening System</h3>
                 <p>
                   A smart gardening platform designed to make terrace farming simple, efficient, and sustainable. 
                   Allows users to upload an image of their terrace for layout and spacing analysis, features live 
@@ -452,7 +452,7 @@ function App() {
                 </div>
               </div>
               <div className="project-body">
-                <h3>📊 Attendance Overview Dashboard</h3>
+                <h3><BarChart2 size={24} /> Attendance Overview Dashboard</h3>
                 <p>
                   Interactive Power BI dashboard to analyze and monitor employee attendance.
                   Shows total/present/absent employees, attendance by team &amp; manager,
@@ -479,7 +479,7 @@ function App() {
                 </div>
               </div>
               <div className="project-body">
-                <h3>📈 E-commerce Sales Dashboard</h3>
+                <h3><TrendingUp size={24} /> E-commerce Sales Dashboard</h3>
                 <p>
                   Tableau dashboard providing insights into profit &amp; sales trends,
                   market share by region, order quantities, and category-wise performance.
@@ -506,7 +506,7 @@ function App() {
                 </div>
               </div>
               <div className="project-body">
-                <h3>🎬 Netflix-Inspired Landing Page</h3>
+                <h3><Play size={24} /> Netflix-Inspired Landing Page</h3>
                 <p>
                   A responsive Netflix-style landing page built with custom HTML and CSS. Features a 
                   full-screen header layout with a branded background, a responsive language selector 
@@ -539,7 +539,7 @@ function App() {
                 <h3>NoviTech Solutions</h3>
                 <div className="intern-role">Data Analytics Intern</div>
               </div>
-              <div className="intern-date"><Calendar size={16} /> 2024 — 2025</div>
+              <div className="intern-date"><Calendar size={16} /></div>
             </div>
             <ul className="intern-points">
               <li>Analyzed large datasets using Python (Pandas, NumPy) and SQL to extract actionable business insights</li>
@@ -626,8 +626,8 @@ function App() {
             <p>Recognition and accomplishments</p>
           </div>
           <div className="achievement-highlight">
-            <div className="trophy-icon">🏆</div>
-            <h3>1st Prize — 🌾 AGRO IQ — AI-Powered Smart Agriculture</h3>
+            <div className="trophy-icon"><Trophy size={48} /></div>
+            <h3>1st Prize — <Sprout size={24} /> AGRO IQ — AI-Powered Smart Agriculture</h3>
             <div className="event">TECH FEST 2025, SASTRA University</div>
             <p>
               Won first place for building an AI-powered agriculture platform empowering farmers with data-driven crop intelligence. 
@@ -681,7 +681,7 @@ function App() {
                   <img src={attendanceImg} alt="Attendance Overview Dashboard" />
                 </div>
                 <div className="lightbox-caption">
-                  <h4>📊 Attendance Overview Dashboard | Power BI</h4>
+                  <h4><BarChart2 size={20} /> Attendance Overview Dashboard | Power BI</h4>
                   <p>Interactive dashboard analyzing employee attendance — total/present/absent counts, team &amp; manager comparisons, gender distribution, and job level breakdown with smart filters.</p>
                 </div>
               </div>
@@ -706,7 +706,7 @@ function App() {
                   <img src={ecommerceImg} alt="E-commerce Sales Dashboard" />
                 </div>
                 <div className="lightbox-caption">
-                  <h4>📈 E-commerce Sales Dashboard | Tableau</h4>
+                  <h4><TrendingUp size={20} /> E-commerce Sales Dashboard | Tableau</h4>
                   <p>Comprehensive dashboard with profit &amp; sales trends, market share by region, order quantities, and category-wise performance. Sales up 5% YoY with LATAM &amp; Europe leading revenue.</p>
                 </div>
               </div>
@@ -900,7 +900,7 @@ function App() {
                 <div className="lightbox-caption">
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
                     <div>
-                      <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>🎓 Data Analytics Internship Certificate</h4>
+                      <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><GraduationCap size={20} /> Data Analytics Internship Certificate</h4>
                       <p>Issued by NoviTech Solutions for completion of the Data Analytics Internship (2024 — 2025).</p>
                     </div>
                     <a href={novitechCertificate} download="Abinaya_NoviTech_Certificate.jpg" className="btn-certificate primary">
