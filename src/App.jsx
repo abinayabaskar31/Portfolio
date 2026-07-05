@@ -218,7 +218,7 @@ function App() {
           <div className="hero-text">
             <div className="hero-badge"><span className="dot"></span> Open to Work</div>
             <h1>Hello, I'm<br /><span className="gradient-text">Abinaya B</span></h1>
-            <p className="hero-subtitle">And I'm a <span className="typed">Data Analyst</span></p>
+            <p className="hero-subtitle">And I'm an <span className="typed">Aspiring Data Analyst</span></p>
             <div className="hero-tags">
               <span className="tag">BCA Student</span>
               <span className="tag">Tableau</span>
@@ -402,7 +402,10 @@ function App() {
                   {['Python', 'Machine Learning', 'OpenCV', 'NumPy', 'SQLite', 'Data Analytics'].map(t => <span key={t}>{t}</span>)}
                 </div>
                 <div className="project-links">
-                  <a href="https://krish31jerry-agro-iq-ai.hf.space/cropandyeilds" target="_blank" rel="noopener noreferrer" className="project-link primary">
+                  <a href="https://github.com/KRISH-FSD/zyra-ecom" target="_blank" rel="noopener noreferrer" className="project-link primary">
+                    <Github size={16} /> GitHub
+                  </a>
+                  <a href="https://krish31jerry-agro-iq-ai.hf.space/cropandyeilds" target="_blank" rel="noopener noreferrer" className="project-link secondary">
                     <ExternalLink size={16} /> Demo
                   </a>
                 </div>
