@@ -396,7 +396,7 @@ function App() {
                   An AI-powered agriculture platform empowering farmers with data-driven crop intelligence.
                   Features crop recommendation via trained ML models, yield analytics with interactive
                   visualizations, crop health monitoring using image processing, and real-time weather insights.
-                  Built with Abinaya B (Data Analytics) & Krishnakanth S (Frontend & Backend).
+                  Built with Abinaya B (Data Analytics) & my team member (Frontend & Backend).
                 </p>
                 <div className="project-tech">
                   {['Python', 'Machine Learning', 'OpenCV', 'NumPy', 'SQLite', 'Data Analytics'].map(t => <span key={t}>{t}</span>)}
