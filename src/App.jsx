@@ -256,7 +256,7 @@ function App() {
           { num: '5+', label: 'Projects Completed' },
           { num: '5+', label: 'Technologies Mastered' },
           { num: '8.5', label: 'CGPA' },
-          { num: '5', label: 'Certifications' },
+          { num: '6', label: 'Certifications' },
         ].map((s, i) => (
           <div className="stat-card" key={i}>
             <div className="stat-number">{s.num}</div>
@@ -600,6 +600,7 @@ function App() {
           </div>
           <div className="cert-grid">
             {[
+              { icon: Database, title: 'AI - Data Engineering Analyst', org: '(NASSCOM) – Skill India Digital Hub' },
               { icon: FileText, title: 'Diploma in MS Office', org: 'CSC' },
               { icon: Terminal, title: 'Zero to Python Hero: Code Smart with AI', org: "Let's Upgrade" },
               { icon: FileSpreadsheet, title: 'Microsoft Excel Bootcamp', org: "Let's Upgrade" },
